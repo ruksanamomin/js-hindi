@@ -79,6 +79,12 @@ let str3 = str1 + str2
 ++gameCounter;//101
 //  console.log(gameCounter);//101
 
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+ // mdn doc of prefix and postfix
+ //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
 
 
 
