@@ -1,0 +1,35 @@
+In early languages programmers need to take care of reserving and free the memory like in c.
+
+But in mid modern languages , languages doesnt give that much control to developerrs tat would be taken 
+care by grabage collector.
+
+Memory is of 2 types.
+1)stack (primitive type)==we will get copy of the variable and if we change the copy value original value doesnt change
+2)Heap memory(non-primitive)====we will get reference of the original value and if we change the value it would be chnaged in original value also
+
+example for stack
+ let myYoutubeName = "Ruksana";
+
+let anotherName=myYoutubeName; //copy of myYoutubeName is given soif we change it ,original value doesnt get changge
+anotherName="Ruksana SHaik"
+console.log(myYoutubeName); //Ruksana
+console.log(anotherName);//Ruksana SHaik
+
+Example for Heap 
+
+let userOne={
+    email:"ruksana@gmail.com",
+   upi: "ruksana@ybl"
+}
+
+let userTwo=userOne; //reference of original object is given..if we make changes original object also get changed
+userTwo.email = "ruksana.g@google.com";
+
+console.log(userOne.email);//ruksana.g@google.com
+console.log(userTwo.email);//ruksana.g@google.com
+
+
+
+
+
+
