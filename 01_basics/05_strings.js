@@ -1,3 +1,5 @@
+//mdn doc for strings
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 let name ="Ruksana";
 let repoCount = 20;
 

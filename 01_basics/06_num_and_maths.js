@@ -1,3 +1,5 @@
+//mdn doc for NUm
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 const score=100;
 //console.log(score); //100
 
@@ -37,6 +39,8 @@ const hundreds= 1000000;
 //console.log(hundreds.toLocaleString('en-IN',{ maximumSignificantDigits: 2 }));//10,00,000
 
 //****************************** maths******************************************
+//link for Math Mdn
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 //it is default library in JS.
 console.log(Math); //Object [Math] {}
 /* Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}

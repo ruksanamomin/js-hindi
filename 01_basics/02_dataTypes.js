@@ -1,3 +1,5 @@
+//mdn doc for datatypes
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 "use strict"; //treat all Js code as new version or new Js code
 
 // alert(3+3); // We are using nodejs not browser. JS engine is there in browser so above syntac works fine in browser.But not in node js.

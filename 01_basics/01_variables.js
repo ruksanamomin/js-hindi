@@ -1,3 +1,5 @@
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
 const accountId=123456;
 let accountName="ruksana@gmail.com";
 var accountPassword = '123@ruk';

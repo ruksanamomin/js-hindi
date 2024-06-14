@@ -1,4 +1,5 @@
-
+//mdn doc for comparisions
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 // console.log(2 > 1);
 // console.log(2 >= 1);
 // console.log(2 < 1);
