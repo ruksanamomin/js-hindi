@@ -6,7 +6,7 @@ var accountPassword = '123@ruk';
 accountCity = "Hyderabad";
 let accountState;
 
-// accountId = 2 // not allowed
+// accountId = 2 // not allowed coz it is a constant
 console.log(accountId);
 
 accountName = 'roshan@google.com'

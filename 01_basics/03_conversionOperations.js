@@ -1,9 +1,9 @@
 //     CONVERSIONS
-//let score=33;//case1
-// let score="33abc" //case2
-//let score = null; //case 3
-//let score = undefined; //case 4
-let score =false;
+//let score=33;//case1 Number
+//let score="33abc" //case2 //string
+//let score = null; //case 3 //object
+//let score = undefined; //case 4 //undefined
+let score =false; //boolean
 //console.log(typeof score);
 //console.log(typeof(score));
 
@@ -18,22 +18,23 @@ let valueInNumber = Number(score);
 //null=>0
 //undefined=>NaN
 
-
-//let isLoggedIn = 1;//case 1
-//let isLoggedIn="ruksana" //case2
-//let isLoggedIn ="" //case3
-let isLoggedIn = 0; //case 4
-//console.log(typeof isLoggedIn);
+//Boolean conversion
+//let isLoggedIn = 1;//case 1 number
+//let isLoggedIn="ruksana" //case2 string
+//let isLoggedIn ="" //case3 string
+let isLoggedIn = 0; //case 4 null
+console.log(typeof isLoggedIn);
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-//console.log(typeof booleanIsLoggedIn);
-//console.log(booleanIsLoggedIn);//case 1 true, case 2 true,  case3 false , case 4  false
+console.log(typeof booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);//case 1  boolean and true, case 2 boolean and true,  case3 boolean and false , case 4  boolean and false
 
 //1=>true 0=>false
 //""=>false, "Ruksana"=>true
 
+//String conversions
 let age=32;
-//console.log(typeof age);
+//console.log(typeof age); //number
 
 let stringAge = String(age);
 //console.log(typeof stringAge); //string
@@ -48,7 +49,7 @@ let negValue =-value;
 //console.log(2+2); //4
 //console.log(2-2);//0
 //console.log(2*2);//4
-//console.log(2**4);//16
+console.log(2**4);//16 2exponential 4
 //console.log(2/3);//0.666
 //console.log(2%3);//2
 
@@ -75,9 +76,9 @@ let str3 = str1 + str2
  //console.log([num1,num2,num3]);// [4,4,4]
 
  let gameCounter= 100;
-//  gameCounter++; //101
+  //gameCounter++; //101
 ++gameCounter;//101
-//  console.log(gameCounter);//101
+ console.log(gameCounter);//101
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
