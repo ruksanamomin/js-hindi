@@ -41,7 +41,7 @@ console.log(name2); //original value is not changed coz of primitive datatypes a
 
 console.log(name2.charAt(3)); //h
 
-console.log(name2.indexOf('a'));
+console.log(name2.indexOf('a')); //4
 
 let newString = name2.substring(0,3);// gives 0/p as "ros" means last value of string wont display,wont accpet negative values
 console.log(newString); 

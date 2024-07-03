@@ -18,7 +18,7 @@ toString: ƒ toString()
 valueOf: ƒ valueOf() 
 */
 
-//practical example of numder properties
+//practical example of number properties
 //console.log(balance.toString()); 100
 //console.log( typeof balance.toString());
 //As it is string now, we can use string methods also example like
@@ -109,4 +109,5 @@ let max=50;
 console.log(Math.random()*(max-min));//gaves 8 but our min vaue should be 10 to avoid this check below
 console.log(Math.floor(Math.random()*(max-min+1)));//still gets the values less than min value to avoid this chheck belwo
 console.log(Math.floor(Math.random()*(max-min+1))+min) //value will be for sure more than 10 i.e., min value
+
 
