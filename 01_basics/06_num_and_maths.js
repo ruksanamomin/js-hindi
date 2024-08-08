@@ -3,6 +3,8 @@
 const score=100;
 //console.log(score); //100
 
+//Explicitly defining that the datatype is number by creating an object
+
 const balance = new Number(100);
 //console.log(balance); //[Number : 100]it tells that the datatype is 100
 /*console o/p for the above statement
@@ -40,7 +42,7 @@ const hundreds= 1000000;
 
 //****************************** maths******************************************
 //link for Math Mdn
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+// 
 //it is default library in JS.
 console.log(Math); //Object [Math] {}
 /* Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
@@ -102,12 +104,15 @@ trunc: ƒ trunc()
 //Mostly we use Maths at random
 console.log(Math.random()); //value would be between 0 and 1
 console.log(Math.random()*10);//shifts the value to left 
-console.log(Math.floor(Math.random()*10+1)); //shifted value to left bt multiplying by 10 and if u add 1 it avoids the value of 0
+console.log(Math.floor((Math.random()*10)+1)); //shifted value to left bt multiplying by 10 and if u add 1 it avoids the value of 0
 //sometimes we need to mention min and max values
 let min  =10;
 let max=50;
 console.log(Math.random()*(max-min));//gaves 8 but our min vaue should be 10 to avoid this check below
 console.log(Math.floor(Math.random()*(max-min+1)));//still gets the values less than min value to avoid this chheck belwo
 console.log(Math.floor(Math.random()*(max-min+1))+min) //value will be for sure more than 10 i.e., min value
+
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
 
 

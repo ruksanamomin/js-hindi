@@ -35,6 +35,7 @@ let myTimeStamp =Date.now()
 
 
 //console.log(Date.now()); //1718384131997 milliseconds
+
 //how to convert into seconds
 //console.log(Date.now()/1000); //1718384243.452 in seconds.it would give in decimals to avoid we use math.round or mmath.floor
 //console.log(Math.floor(Date.now()/1000)); //1718384319

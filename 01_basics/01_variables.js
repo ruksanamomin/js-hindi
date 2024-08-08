@@ -13,7 +13,7 @@ accountName = 'roshan@google.com'
 accountPassword='456'
 accountCity='Jaipur' 
 
-console.table([accountId,accountName,accountPassword,accountCity]);
+console.table([accountId,accountName,accountPassword,accountCity,accountState])
 
 /*
 Prefer not to use var

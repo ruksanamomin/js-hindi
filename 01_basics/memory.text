@@ -1,6 +1,6 @@
 In early languages programmers need to take care of reserving and free the memory like in c.
 
-But in mid modern languages , languages doesnt give that much control to developerrs tat would be taken 
+But in mid modern languages , languages doesnt give that much control to developerrs that would be taken 
 care by grabage collector.
 
 Memory is of 2 types.

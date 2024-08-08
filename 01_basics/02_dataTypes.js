@@ -9,7 +9,7 @@
 //code should be readable and future proof
  console.log(3
     +3) ;// code readability should be high
-    /*tc39.es ECMS Script wrote the standard os JS not JS https://tc39.es/ecma262/
+    /*tc39.es ECMA Script wrote the standard os JS not JS https://tc39.es/ecma262/
      AND MDN BY mozilla organization  https://developer.mozilla.org/en-US/docs/Web/JavaScript */
 
 

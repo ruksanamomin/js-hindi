@@ -1,9 +1,9 @@
-//     CONVERSIONS
+//CONVERSIONS
 //let score=33;//case1 Number
 //let score="33abc" //case2 //string
 //let score = null; //case 3 //object
 //let score = undefined; //case 4 //undefined
-let score =false; //boolean
+let score =false; // case 5 boolean
 //console.log(typeof score);
 //console.log(typeof(score));
 
@@ -22,12 +22,13 @@ let valueInNumber = Number(score);
 //let isLoggedIn = 1;//case 1 number
 //let isLoggedIn="ruksana" //case2 string
 //let isLoggedIn ="" //case3 string
-let isLoggedIn = 0; //case 4 null
+let isLoggedIn = 0; //case 4 number
 console.log(typeof isLoggedIn);
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);//case 1  boolean and true, case 2 boolean and true,  case3 boolean and false , case 4  boolean and false
+console.log(typeof booleanIsLoggedIn); //boolean
+console.log(booleanIsLoggedIn);//case 1  boolean and true, case 2 boolean and true,  case3 boolean and false , 
+//case 4  boolean and false
 
 //1=>true 0=>false
 //""=>false, "Ruksana"=>true
@@ -38,13 +39,13 @@ let age=32;
 
 let stringAge = String(age);
 //console.log(typeof stringAge); //string
-//console.log(stringAge); //33
+console.log(stringAge); //32
 
 //*********************************OPERATIONS*****************************************
 let value =3;
 let negValue =-value;
 
-//console.log(negValue);
+console.log(negValue); //-3
 
 //console.log(2+2); //4
 //console.log(2-2);//0
@@ -64,7 +65,7 @@ let str3 = str1 + str2
  //console.log("1" + 2 + 2);122
  //console.log(1 + 2 + "2");//32
 
- //console.log( (3 + 4) * 5 % 3); //2 recommendable to use () as per the request which operation should be done first
+ console.log( (3 + 4) * 5 % 3); //2 recommendable to use () as per the request which operation should be done first
 
  //console.log(true); //true
  //console.log(+true);//1
