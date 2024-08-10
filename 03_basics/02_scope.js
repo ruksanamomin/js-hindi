@@ -66,3 +66,22 @@ if(true){
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
+//There are different ways to write a function
+//way 1 write a function and dng a function call
+console.log(addOne(6));
+
+
+function addOne(num){
+    return num+1;
+}
+
+//way2 storing a function in a variable and calling it
+console.log(addTwo(5)) //error is Cannot access 'addTwo' before initialization coz of way of declaring a function
+let addTwo = function(num1){
+    return num1+4;
+}
+
+/*
+NOTE: in way 1 declaration of function is done normally so that we can access the function call before initialization
+in way 2 as the function is stored in a variable we cannot access it before initialization.
+*/
