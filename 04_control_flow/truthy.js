@@ -45,6 +45,7 @@ false =='0' //true
 
 //Nullish Coalescing Operator (??): null,  undefined
 //this is used at the time of multiple functions,appwrite, return values
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing
 let val1;
 val1 = 5?? 10; //5
 val1 = undefined ?? 100;//100
