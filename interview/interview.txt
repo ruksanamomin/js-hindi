@@ -75,4 +75,62 @@ result2---->60
 cycle 2 execution phase is finished
 
 
-CALL STACK:::::
+CALL STACK::::: it logs all the executions should be taken place.
+
+ex:: Basic example
+function one(){
+console.log("one");
+
+}
+function two(){
+    console.log("two"); 
+}
+function three(){
+    console.log("three");
+}
+one()
+two()
+three()
+
+one enters the stack, executes and leaves the stack.
+two enters the stack, executes and leaves the stack.
+three enters the stack, executes and leaves the stack.
+
+Ex:::what if there are function call within the function
+function one(){
+    console.log("one");
+two();
+}
+function two(){
+    console.log("two")
+    three()
+}
+function three(){
+    console.log("three")
+}
+one();
+two();
+three();
+
+now one enters first and two() is called in one so next two() enters the stack...
+now two has three () so three() enters the stack likewise....
+
+Note::callstack follows LIFO.
+
+o/p would be as follow in browser::
+one
+chaiaurcode.js:6 two
+chaiaurcode.js:10 three
+chaiaurcode.js:6 two
+chaiaurcode.js:10 three
+chaiaurcode.js:10 three
+chaiaurcode.js:1 undefined
+
+o/p in node:
+one
+two
+three
+two
+three
+three
+
