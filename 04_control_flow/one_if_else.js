@@ -76,6 +76,8 @@ const isUserLoggedIn ----->(assignment operator)= true;
 // const balance =1000;
 // if(balance>500) console.log("test");
 // if (balance > 500) console.log("test"),console.log("test2"); (not recommendable)
+//******************************* */
+
 //Nesting or multiple conditions
 // if(balance<500){
 //     console.log("less than 500");
@@ -102,4 +104,7 @@ if (loggedInFromGoogle || loggedInFromGmail) {
     console.log("User logged in ");
     
 }
+
+//&& all conditions must be true.
+//  || any one condition can be true
 

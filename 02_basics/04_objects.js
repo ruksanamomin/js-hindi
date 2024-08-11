@@ -1,5 +1,10 @@
 //Objects with constructors(singletonn)
-//singleton object creation
+//Object creation using constructor.
+//Object.create
+//singleton---when we create object with constructor singleton object would be formed...this would be only one type of object formed.
+//when we create object in another way there would be multiple instances.
+
+//singleton object creation(using new word)
 
 //const singleton= new Object();
 //console.log(singleton); //{}

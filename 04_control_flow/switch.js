@@ -1,4 +1,4 @@
-//one value multiple checks or checkpoints there we use switch....In Redux
+//one value multiple checks or checkpoints, it would be hectic withif and else so  we use switch.... ex:In Redux
 //General Syntax
 // switch (key) {
 //     case value:
@@ -28,4 +28,7 @@ switch(month){
         console.log("default case");
         break;
         }
+
+        //if break is not mentioned everything would executed until break is applied except default
+        //if anycase doesnt matches means true then default(false) gets executed.
 //************************************** */

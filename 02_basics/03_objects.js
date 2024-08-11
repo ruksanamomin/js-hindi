@@ -1,11 +1,8 @@
 //objects can be declared in 2 ways..one is literal and constructor.
-//Object creation using constructor.
-//Object.create
-//singleton---when we create object with constructor singleton object would be formed...this would be only one type of object formed.
-//when we create object in another way there would be multiple instances.
 
 
-//OBJECT LITERALS
+
+//OBJECT LITERALS(just assigning a value is known as literal)
 
 const mySym = Symbol("myKey1"); //declaration of symbol
 
