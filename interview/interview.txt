@@ -1,0 +1,78 @@
+JS EXECUTION CONTEXT-->
+whenever u make a file, js executes and runs the file...js runs the file   in  2phases.
+
+whenever we make a file and gives it to Js..then everytime happens a GLOBAL EC.
+this GEC is kept inside a variable named THIS.
+when we run GEC in browser  "this" value would be a window object.but it differes in node ,bun,dino.
+JS is a single threaded lamguage
+
+Whenever a code file is given to JS.there happens 2things.Thy are:
+Global EC-->This would happen for sure.would be kept in this variable and this happens in a thread ,,
+In browser, this value would be window object.
+Function EC, 
+Eval EC(in Mangoose)(it is a property of Global object)
+
+//how Js code executes::::
+Js runs the file in 2 phases...
+1)Memory creation phase or creation phase -->allocates the space or memory to variables or whatever declared.
+2)Executon phase
+
+EXAMPLE:::::
+let val1=10;
+let val2=20;
+function addBoth(val1,val2){
+   let total = val1+val2;
+   return total;
+    }
+let result1 = addBoth(val1, val2);
+console.log(result1); //30
+//console.log(result2); //Cannot access 'result2' before initialization
+let result2 = addBoth(40,50)
+console.log(result2); //90
+
+Steps when js code file executes:::
+1)Whenever a code file runs in Java GLOBAL EC gets created and would be allocated in "this variable.
+2)Memory creation phase(MCP) or Creation Phase(CP) or Memory Phase(Mp) or cycle1
+In this all the variable would be collected and stored  at one place.
+Here all the variable are collected and "undefined is stored in them."
+from above pgm, 
+we take 
+val1--->undefined
+val2---->undefined
+addBoth---->function definition from 23 to 26.
+result1--->undefined
+result2--->undefined
+
+3)cycle 2 or execution phase
+val1--->10
+val2--->20
+addBoth---->whenever a function runs it creates new execution CONTEXT.
+NEW EC has new variable environment+execution thread.
+that means 1)Memory phase
+val1--->undefined
+val2--->undefined
+total--->undefined
+2)Execution phase
+val1--->10
+val2-->20
+total--->30 and this total would be stored in GEC.
+Note:::Once the execution is done , this execution context is deleted.
+
+result1----> 30
+result2---->whenever a function runs it creates new execution CONTEXT.
+NEW EC has new variable environment+execution thread.
+that means 1)Memory phase
+val1--->undefined
+val2--->undefined
+total--->undefined
+2)Execution phase
+val1--->40
+val2-->50
+total--->60 and this total would be stored in GEC.
+Note:::Once the execution is done , this execution context is deleted.
+result2---->60
+
+cycle 2 execution phase is finished
+
+
+CALL STACK:::::
