@@ -14,7 +14,7 @@ for (const num of arr) {
     
 }
 
-//for of ons trings
+//for of on strings
 const greetings = "Hello world!"
 for (const greet of greetings) {
     if( greet == ' '){
@@ -44,9 +44,9 @@ map.set('zm',"Zimbambey")
 
 //how to apply loops on Map
 for (const i of map) {
-    //console.log(i);
+    //console.log(i);//this gives the o/p in array form
     
-}//this gives the o/p in array form
+}
 
 //To destructure the array we use [key,value]
 
