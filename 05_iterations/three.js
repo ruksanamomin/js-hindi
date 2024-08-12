@@ -62,14 +62,24 @@ zm :- Zimbambey
 */
 /////*************************************************** */
 //How to apply for of loop on Objects
-let myObject = {
-     game1: 'NFS',
-    game2: 'Spiderman'
-}
+
 //way to create object  
 // let myObject = new Object();
 // myObject.game1='Nfs'
 // myObject.game2='Spiderman'
 // console.log(myObject);
+
+let myObject = {
+    game1: 'NFS',
+   game2: 'Spiderman'
+}
+
+for(const key of myObject){
+    //console.log(key);//myObject is not iterable
+    
+}
+
+//Note:::: for of loop is not iterable with object..It has different ways to do with which will be explained in next file four.js...
+
 
 
