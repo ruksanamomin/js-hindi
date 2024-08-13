@@ -25,3 +25,38 @@ in the above web page will try to remove brendan name and write another name..th
 document.getElementById('firstHeading')
 2.changing the name using innerHTML
 document.getElementById('firstHeading').innerHTML='<h1>Musfirah Naazneen</h1>'
+
+//document.getElementById('title').id //title
+document.getElementById('title').class //undefined coz class is recognised as className in DOM.
+document.getElementById('title').className  //'heading'
+document.getElementById('title').getAttribute('class')  //'heading'
+document.getElementById('title').getAttribute('id') ///'title'
+document.getElementById('title').setAttribute('class', 'test heading')
+undefined --->but in elements it rewrites the class
+//checking the class in title
+document.getElementById('title');
+<h1 id=​"title" class=​"test heading" style=​"color:​ blueviolet;​">​DOM Learning On Chai Aur Code ​</h1>​
+//storing the id in abdul variable
+const abdul=document.getElementById('title');
+//if we type abdul it will gve whole h1
+abdul
+<h1 id="title" class="test heading" style="color: blueviolet;">DOM Learning On Chai Aur Code </h1>
+
+//adding style to the variable which is stored using id
+abdul.style.background = 'cyan'
+'cyan'
+abdul.style.padding = '12px'
+'12px'
+abdul.style.borderRadius = '20px'
+'20px'
+
+/////ADDING CONTENT///////
+abdul.textContent ////gives whole code which is written in the html file  
+'DOM Learning On Chai Aur Code '
+abdul.innerHTML ------>supports all the html tags inside it
+'DOM Learning On Chai Aur Code '
+abdul.innerText-------->gives only visible code
+'DOM Learning On Chai Aur Code'
+
+//difference between 3 is
+i
