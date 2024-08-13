@@ -70,6 +70,8 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
+  //EXERCISES
+
   let userBooks =books.filter((bk)=>bk.genre == "History");
 
  userBooks =books.filter((bk)=>{
